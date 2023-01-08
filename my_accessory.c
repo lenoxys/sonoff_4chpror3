@@ -23,8 +23,6 @@ homekit_characteristic_t cha_switch_2 = HOMEKIT_CHARACTERISTIC_(ON, false);
 homekit_characteristic_t cha_switch_3 = HOMEKIT_CHARACTERISTIC_(ON, false);
 homekit_characteristic_t cha_switch_4 = HOMEKIT_CHARACTERISTIC_(ON, false);
 
-homekit_characteristic_t cha_programmable_switch_event = HOMEKIT_CHARACTERISTIC_(PROGRAMMABLE_SWITCH_EVENT, 0);
-
 homekit_accessory_t *accessories[] = {
     HOMEKIT_ACCESSORY(.id=1, .category=homekit_accessory_category_bridge, .services=(homekit_service_t*[]) {
     	// HAP section 8.17:
